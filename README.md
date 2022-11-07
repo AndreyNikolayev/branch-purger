@@ -39,7 +39,11 @@ Exclude branches that you need to preserve via space separated list.
 BRANCH_PREFIX is set to "anikolaiev"
 
 Repository contains next branches:
-main, development, test/branch, anikolaiev/branch1, anikolaiev/branch2
+main, development, test/branch1, anikolaiev/branch1, anikolaiev/branch2
+
+Running `node app.js branch1 branch2`
+
+As a result none branches will be deleted.
 
 Running `node app.js branch2`
 
